@@ -9,10 +9,10 @@
   * [Grammar and types](js-basics/variables.md)
     * [Comments](js-basics/variables/comments.md)
     * [Variables](js-basics/variables/variables.md)
-    * Types
+    * [Types](js-basics/variables/types.md)
   * [Numbers](js-basics/numbers.md)
-    * Basics
-    * Methods
+    * [Basics](js-basics/numbers/basics.md)
+    * [Methods](js-basics/numbers/methods.md)
     * Examples
     * Test yourself
     * References

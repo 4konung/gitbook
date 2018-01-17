@@ -12,9 +12,15 @@ Frontend разработчик проектирует и разрабатыва
 
 
 
-## Технологии
-
-![](/assets/Web_Development.png)
+## Браузеры
 
 
+
+
+
+
+
+## Roadmap
+
+![](https://camo.githubusercontent.com/04ad65322cfd84ad30a3173e15d8b0cacff0d6c2/68747470733a2f2f692e696d6775722e636f6d2f5772664c45536d2e706e67)
 

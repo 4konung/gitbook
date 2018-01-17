@@ -1,3 +1,24 @@
-# First Chapter
+# Введение в Javascript.
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+В данной главе будет рассмотрен язык программирования JS, основы работы frontend разработки, а также работу Веб в целом \(Internet, Browsers, DNS, HTTP\).
+
+## 
+
+## [Что такое Javascript ?](/chapter1/what-is-javascript.md)
+
+В данной главе проводится краткий анализ языка, область применения, особенности работы.
+
+
+
+## [Что такое Frontend ?](/chapter1/what-is-frontend.md)
+
+В данной главе дается краткая характеристика работы frontend разработчика, обязанности, необходимые знания.
+
+
+
+## [Как работает Web ?](/chapter1/how-web-works.md)
+
+В данной главе рассмотрен набор общих знания и терминов работы Web.
+
+
+

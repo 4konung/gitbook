@@ -6,15 +6,15 @@
 >
 > [https://en.wikipedia.org/wiki/Front-end\_web\_development](https://en.wikipedia.org/wiki/Front-end_web_development)
 
+## Вёрстка, HTML, CSS, JS
+
+Frontend разработчик проектирует и разрабатывает вебсайты использую технологии HTML - для создания структуры сайта, CSS -  для стилизации и внешнего вида веб-страниц, JS - для добавления логики на страницу, обработки взаимодействия пользователя со страницей.
 
 
 
+## Технологии
+
+![](/assets/Web_Development.png)
 
 
-
-
-
-
-
-https://coggle.it/diagram/Wl\_RIr4ImwABZKto/t/web-development/71aaebe2754a4498283662bc152d249c1d5e2762b5f863feeb839ccdcf650a64
 

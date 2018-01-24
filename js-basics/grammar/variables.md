@@ -10,19 +10,15 @@
 
 JavaScript использует второй подход, _динамическую типизацию_, что означает, что переменные могут хранить значения любого _типа _без какого-либо контроля _типов._
 
-
-
 ## Имя переменной
 
-Вы можете использовать переменные как символические имена для значений в вашем приложении. Имена переменных называются [identifiers](https://developer.mozilla.org/ru/docs/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C/Identifier) и должны соответствовать определенным правилам.
+Вы можете использовать переменные как символические имена для значений в вашем приложении. Имена переменных называются [identifiers](https://developer.mozilla.org/ru/docs/Словарь/Identifier) и должны соответствовать определенным правилам.
 
 Идентификатор в JavaScript должен начинаться с буквы, нижнего подчеркивания \(\_\) или знака доллара \($\); последующие символы могут также быть цифрами \(0-9\). Поскольку JavaScript чувствителен к регистру, буквы включают символы от "A" до "Z" \(верхний регистр\) и символы от "a" до "z" \(нижний регистр\).
 
-Вы можете использовать в идентификаторах буквы ISO 8859-1 или Unicode, например, å или ü. Вы также можете использовать[управляющие последовательности Unicode](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Lexical_grammar#String_literals) как символы в идентификаторах.
+Вы можете использовать в идентификаторах буквы ISO 8859-1 или Unicode, например, å или ü. Вы также можете использовать[управляющие последовательности Unicode](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Lexical_grammar#String_literals) как символы в идентификаторах.
 
-Некоторые примеры корректных имен: `Number_hits`, `temp99`,  `_name`.
-
-
+Некоторые примеры корректных имен: `Number_hits`, `temp99`,  `_name`.
 
 ## Объявление переменных
 
@@ -30,17 +26,17 @@ JavaScript использует второй подход, _динамическ
 
 [`var`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/var) - Объявляет переменную, инициализация переменной значением является необязательной.
 
-[**`let`**](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/let) - Объявляет локальную переменную в области видимости блока, инициализация переменной значением является необязательной.
+[`let`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/let) - Объявляет локальную переменную в области видимости блока, инициализация переменной значением является необязательной.
 
-[**`const`**](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/const) - Объявляет именованную константу, доступную только для чтения.
+[`const`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/const) - Объявляет именованную константу, доступную только для чтения.
 
 
 
-вы можете объявить переменную следующими способами:
+Переменные можно объявить следующими способами:
 
-* Используя ключевое слово [`var`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/var). Например, `var x = 42`. Данный синтаксис может быть использован для объявления как локальных, так и глобальных переменных.
-* Просто присвоить переменной значение. Например, `x = 42`. Переменные, объявленные данным способом, являются глобальными. Такое объявление генерирует [строгое предупреждение](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Strict_mode) \([strict mode](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Strict_mode)\). Не рекомендуется использовать данный способ.
-* Используя ключевое слово [`let`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/let). Например, `let y = 13`. Данный синтаксис может быть использован для объявления локальной переменной в области видимости блока.
+* Используя ключевое слово [`var`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/var). Например, `var x = 42`. Данный синтаксис может быть использован для объявления как локальных, так и глобальных переменных.
+* Просто присвоить переменной значение. Например, `x = 42`. Переменные, объявленные данным способом, являются глобальными. Такое объявление генерирует [строгое предупреждение](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Strict_mode) \([strict mode](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Strict_mode)\). Не рекомендуется использовать данный способ.
+* Используя ключевое слово [`let`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/let). Например, `let y = 13`. Данный синтаксис может быть использован для объявления локальной переменной в области видимости блока.
 
 
 

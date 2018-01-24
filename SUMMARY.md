@@ -52,6 +52,12 @@
     * Examples
     * Test yourself
     * References
+  * [Functions](js-basics/functions.md)
+    * Basics
+    * Methods
+    * Examples
+    * Test yourself
+    * References
 * [Advanced Javascript](advanced-javascript.md)
   * [Scope](advanced-javascript/scope.md)
   * [Closures](advanced-javascript/closures.md)

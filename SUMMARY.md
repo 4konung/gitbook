@@ -6,7 +6,7 @@
   * [How Web works, basically ?](chapter1/how-web-works.md)
   * [What is Javascript, really ?](chapter1/what-is-javascript.md)
 * [JS Basics](js-basics.md)
-  * [Grammar and types](js-basics/variables.md)
+  * [Grammar and types](js-basics/grammar.md)
     * [Comments](js-basics/variables/comments.md)
     * [Variables](js-basics/variables/variables.md)
     * [Types](js-basics/variables/types.md)

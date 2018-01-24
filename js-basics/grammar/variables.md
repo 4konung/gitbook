@@ -30,13 +30,59 @@ JavaScript использует второй подход, _динамическ
 
 [`const`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/const) - Объявляет именованную константу, доступную только для чтения.
 
-
-
 Переменные можно объявить следующими способами:
 
 * Используя ключевое слово [`var`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/var). Например, `var x = 42`. Данный синтаксис может быть использован для объявления как локальных, так и глобальных переменных.
 * Просто присвоить переменной значение. Например, `x = 42`. Переменные, объявленные данным способом, являются глобальными. Такое объявление генерирует [строгое предупреждение](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Strict_mode) \([strict mode](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Strict_mode)\). Не рекомендуется использовать данный способ.
 * Используя ключевое слово [`let`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/let). Например, `let y = 13`. Данный синтаксис может быть использован для объявления локальной переменной в области видимости блока.
+
+
+
+## Присваивание переменных
+
+Переменная, объявленная через`var`или`let`без присвоения начального значения, имеет значение [`undefined`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/undefined). При попытке доступа к необъявленной переменной или переменной до её объявления будет выброшено исключение [`ReferenceError`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError):​
+
+```js
+var a;
+console.log("The value of a is " + a); //Значение переменной a undefined
+
+console.log("The value of b is " + b); //Uncaught ReferenceError: b не определена
+
+console.log("The value of c is " + c); //Значение переменной c undefined
+var c;
+
+console.log("The value of x is " + x); //Uncaught ReferenceError: x не определена
+let x;
+```
+
+### Область видимости переменных {#Область_видимости_переменных}
+
+Когда вы объявляете переменную вне функции, то такая переменная называется _глобальной _переменной, т.к. доступна любому коду в текущем документе. Когда вы объявляете переменную внутри функции, то такая переменная называется _локальной _переменной, т.к. доступна только внутри данной функции.
+
+До ECMAScript 6 в JavaScript отсутствовала область видимости [блока](https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Statements); переменная, объявленная внутри блока, является локальной для _**функции**_\(или _глобальной _области видимости\), внутри которой находится данный блок. Например, следующий код выведет значение 5, т.к. областью видимости переменной`x`является функция \(или глобальный контекст\), внутри которой объявлена переменная`x`, а _**не блок**, _которым в данном случае является оператор`if`:
+
+```js
+if (true) {
+  var x = 5;
+}
+console.log(x); // 5
+```
+
+Такое поведение меняется, если используется оператор`let`, введенный в ECMAScript 6:
+
+```js
+if (true) {
+  let y = 5;
+}
+console.log(y); // ReferenceError
+```
+
+###  {#Поднятие_переменных}
+
+### Поднятие переменных {#Поднятие_переменных}
+
+  
+
 
 
 

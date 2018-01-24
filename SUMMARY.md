@@ -7,9 +7,9 @@
   * [What is Javascript, really ?](chapter1/what-is-javascript.md)
 * [JS Basics](js-basics.md)
   * [Grammar and types](js-basics/grammar.md)
-    * [Comments](js-basics/variables/comments.md)
-    * [Variables](js-basics/variables/variables.md)
-    * [Types](js-basics/variables/types.md)
+    * [Comments](js-basics/grammar/comments.md)
+    * [Variables](js-basics/grammar/variables.md)
+    * [Types](js-basics/grammar/types.md)
   * [Conditional Logic](js-basics/conditional-logic.md)
     * Basics
     * Examples

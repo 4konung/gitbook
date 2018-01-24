@@ -10,6 +10,16 @@
     * [Comments](js-basics/variables/comments.md)
     * [Variables](js-basics/variables/variables.md)
     * [Types](js-basics/variables/types.md)
+  * [Conditional Logic](js-basics/conditional-logic.md)
+    * Basics
+    * Examples
+    * Test yourself
+    * References
+  * [Equality](js-basics/equality.md)
+    * Basics
+    * Examples
+    * Test yourself
+    * References
   * [Numbers](js-basics/numbers.md)
     * [Basics](js-basics/numbers/basics.md)
     * [Methods](js-basics/numbers/methods.md)
@@ -39,22 +49,6 @@
   * [Arrays](js-basics/arrays.md)
     * Basics
     * Methods
-    * Examples
-    * Test yourself
-    * References
-  * [Functions](js-basics/functions.md)
-    * Basics
-    * Methods
-    * Examples
-    * Test yourself
-    * References
-  * [Equality](js-basics/equality.md)
-    * Basics
-    * Examples
-    * Test yourself
-    * References
-  * [Conditional Logic](js-basics/conditional-logic.md)
-    * Basics
     * Examples
     * Test yourself
     * References

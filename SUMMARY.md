@@ -11,12 +11,12 @@
     * [Variables](js-basics/grammar/variables.md)
     * [Types](js-basics/grammar/types.md)
   * [Conditional Logic](js-basics/conditional-logic.md)
-    * Basics
+    * [Basics](js-basics/conditional-logic/basics.md)
     * Examples
     * Test yourself
     * References
   * [Equality](js-basics/equality.md)
-    * Basics
+    * [Basics](js-basics/equality/basics.md)
     * Examples
     * Test yourself
     * References

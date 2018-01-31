@@ -43,8 +43,8 @@ var a = 42;        // 42 - смысл жизни
 
 ### Источники:
 
-1. [You don't know js](https://github.com/azat-io/you-dont-know-js-ru/blob/master/up%20%26%20going/ch1.md#%D0%9A%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B8-%D0%B2-%D0%BA%D0%BE%D0%B4%D0%B5)
-2. [MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Grammar_and_Types#%D0%9A%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B8)
+1. [You don't know js](https://github.com/azat-io/you-dont-know-js-ru/blob/master/up %26 going/ch1.md#Комментарии-в-коде)
+2. [MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Grammar_and_Types#Комментарии)
 
 
 

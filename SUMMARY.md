@@ -12,13 +12,13 @@
     * [Types](js-basics/grammar/types.md)
   * [Conditional Logic](js-basics/conditional-logic.md)
     * [Basics](js-basics/conditional-logic/basics.md)
-    * Examples
-    * Test yourself
-    * References
+    * [Examples](js-basics/conditional-logic/examples.md)
+    * [Test yourself](js-basics/conditional-logic/test-yourself.md)
+    * [References](js-basics/conditional-logic/references.md)
   * [Equality](js-basics/equality.md)
     * [Basics](js-basics/equality/basics.md)
-    * Examples
-    * Test yourself
+    * [Examples](js-basics/equality/examples.md)
+    * [Test yourself](js-basics/equality/test-yourself.md)
     * References
   * [Numbers](js-basics/numbers.md)
     * [Basics](js-basics/numbers/basics.md)

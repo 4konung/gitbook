@@ -41,6 +41,8 @@ var a = 42;        // 42 - смысл жизни
  var a = 42;
 ```
 
+---
+
 ### Источники:
 
 1. [You don't know js](https://github.com/azat-io/you-dont-know-js-ru/blob/master/up %26 going/ch1.md#Комментарии-в-коде)

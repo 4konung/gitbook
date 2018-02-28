@@ -45,7 +45,7 @@ var a = 42;        // 42 - смысл жизни
 
 {% exercise %}
 
-Define a variable \`x\` equal to 10.
+Закомментируй строку
 
 
 
@@ -61,6 +61,9 @@ Define a variable \`x\` equal to 10.
 Пометь меня как комментарий
 иначе будет ошибка
 */
+
+{% validation %}
+assert();
 
 {% endexercise %}
 

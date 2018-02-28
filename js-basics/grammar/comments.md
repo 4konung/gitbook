@@ -63,7 +63,7 @@ var a = 42;        // 42 - смысл жизни
 */
 
 {% validation %}
-assert();
+assert(true == true);
 
 {% endexercise %}
 

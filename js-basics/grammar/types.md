@@ -174,21 +174,26 @@ console.log( b );    // 42
 
 
 
-Объявите переменную \`x\` и присвойте туда строку.
+Объявите переменную \`a\` и присвойте туда строку.
+Объявите переменную \`b\` и присвойте туда число.
+Объявите переменную \`с\` и присвойте туда логический тип данных.
+Объявите переменную \`d\` и присвойте туда объект.
+Объявите переменную \`e\` и присвойте туда массив.
+
+
 
 
 
 {% initial %}
 
 
-
-
-
 {% solution %}
 
-
-
-var x = 'test';
+var a = 'test';
+var b = 10;
+var c = false;
+var d = {};
+var e = [];
 
 
 
@@ -196,7 +201,12 @@ var x = 'test';
 
 
 
-assert(typeof x == 'string');
+assert(typeof a == 'string');
+assert(typeof b == 'number');
+assert(typeof c == 'boolean');
+assert(Object.prototype.toString.call(d) == "[object Object]");
+assert(Array.isArray(e));
+
 
 
 

@@ -14,7 +14,7 @@ var name;
 
 
 
-if \(name === "John"\) {
+if (name === "John") {
 
 
 

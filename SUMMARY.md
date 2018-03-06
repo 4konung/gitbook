@@ -23,23 +23,22 @@
   * [Numbers](js-basics/numbers.md)
     * [Basics](js-basics/numbers/basics.md)
     * [Methods](js-basics/numbers/methods.md)
-    * Examples
-    * Test yourself
+    * [Examples](js-basics/numbers/examples.md)
+    * [Test yourself](js-basics/numbers/test-yourself.md)
     * References
   * [Strings](js-basics/strings.md)
     * [Basics](js-basics/strings/basics.md)
     * [Methods](js-basics/strings/methods.md)
-    * Examples
+    * [Examples](js-basics/strings/examples.md)
     * Test yourself
     * [References](js-basics/strings/strings.md)
   * [Boolean](js-basics/boolean.md)
-    * Basics
-    * Methods
+    * [Basics](js-basics/boolean/basics.md)
+    * [Methods](js-basics/boolean/methods.md)
     * Examples
     * Test yourself
     * References
   * [Null, Undefined](js-basics/null-undefined.md)
-    * Basics
   * [Objects](js-basics/objects.md)
     * Basics
     * Methods

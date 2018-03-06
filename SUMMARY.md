@@ -28,7 +28,7 @@
     * References
   * [Strings](js-basics/strings.md)
     * [Basics](js-basics/strings/basics.md)
-    * Methods
+    * [Methods](js-basics/strings/methods.md)
     * Examples
     * Test yourself
     * [References](js-basics/strings/strings.md)

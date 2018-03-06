@@ -19,7 +19,7 @@
     * [Basics](js-basics/equality/basics.md)
     * [Examples](js-basics/equality/examples.md)
     * [Test yourself](js-basics/equality/test-yourself.md)
-    * References
+    * [References](js-basics/equality/references.md)
   * [Numbers](js-basics/numbers.md)
     * [Basics](js-basics/numbers/basics.md)
     * [Methods](js-basics/numbers/methods.md)

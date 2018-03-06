@@ -46,7 +46,7 @@
     * Test yourself
     * References
   * [Arrays](js-basics/arrays.md)
-    * Basics
+    * [Basics](js-basics/arrays/basics.md)
     * Methods
     * Examples
     * Test yourself

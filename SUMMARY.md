@@ -40,8 +40,8 @@
     * References
   * [Null, Undefined](js-basics/null-undefined.md)
   * [Objects](js-basics/objects.md)
-    * Basics
-    * Methods
+    * [Basics](js-basics/objects/basics.md)
+    * [Methods](js-basics/objects/methods.md)
     * Examples
     * Test yourself
     * References

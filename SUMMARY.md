@@ -27,7 +27,7 @@
     * Test yourself
     * References
   * [Strings](js-basics/strings.md)
-    * Basics
+    * [Basics](js-basics/strings/basics.md)
     * Methods
     * Examples
     * Test yourself

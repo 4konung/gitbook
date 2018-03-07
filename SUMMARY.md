@@ -53,7 +53,7 @@
     * References
   * [Functions](js-basics/functions.md)
     * [Basics](js-basics/functions/basics.md)
-    * Methods
+    * [Methods](js-basics/functions/methods.md)
     * Examples
     * Test yourself
     * References

@@ -47,7 +47,7 @@
     * References
   * [Arrays](js-basics/arrays.md)
     * [Basics](js-basics/arrays/basics.md)
-    * Methods
+    * [Methods](js-basics/arrays/methods.md)
     * Examples
     * Test yourself
     * References

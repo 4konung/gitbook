@@ -38,7 +38,6 @@
     * Examples
     * Test yourself
     * References
-  * [Null, Undefined](js-basics/null-undefined.md)
   * [Objects](js-basics/objects.md)
     * [Basics](js-basics/objects/basics.md)
     * [Methods](js-basics/objects/methods.md)
@@ -57,6 +56,11 @@
     * Examples
     * Test yourself
     * References
+  * [Loops](js-basics/loops.md)
+    * For
+    * While
+    * Do...While
+  * [Null, Undefined](js-basics/null-undefined.md)
 * [Advanced Javascript](advanced-javascript.md)
   * [Scope](advanced-javascript/scope.md)
   * [Closures](advanced-javascript/closures.md)

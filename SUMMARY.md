@@ -52,7 +52,7 @@
     * Test yourself
     * References
   * [Functions](js-basics/functions.md)
-    * Basics
+    * [Basics](js-basics/functions/basics.md)
     * Methods
     * Examples
     * Test yourself

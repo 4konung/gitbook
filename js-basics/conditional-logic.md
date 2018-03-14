@@ -5,12 +5,11 @@
 ## ![](/assets/condition.png)Содержание
 
 1. [Основы](/js-basics/conditional-logic/basics.md)
-
 2. [Примеры](/js-basics/conditional-logic/examples.md)
-
 3. [Задания](/js-basics/conditional-logic/test-yourself.md)
-
 4. [Ссылки на дополнительные источники](/js-basics/conditional-logic/references.md)
+
+
 
 
 

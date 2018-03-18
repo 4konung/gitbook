@@ -25,7 +25,7 @@
     * [Methods](js-basics/numbers/methods.md)
     * [Examples](js-basics/numbers/examples.md)
     * [Test yourself](js-basics/numbers/test-yourself.md)
-    * References
+    * [References](js-basics/numbers/references.md)
   * [Strings](js-basics/strings.md)
     * [Basics](js-basics/strings/basics.md)
     * [Methods](js-basics/strings/methods.md)

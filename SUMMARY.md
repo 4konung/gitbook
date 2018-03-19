@@ -35,9 +35,9 @@
   * [Boolean](js-basics/boolean.md)
     * [Basics](js-basics/boolean/basics.md)
     * [Methods](js-basics/boolean/methods.md)
-    * Examples
-    * Test yourself
-    * References
+    * [Examples](js-basics/boolean/examples.md)
+    * [Test yourself](js-basics/boolean/test-yourself.md)
+    * [References](js-basics/boolean/references.md)
   * [Objects](js-basics/objects.md)
     * [Basics](js-basics/objects/basics.md)
     * [Methods](js-basics/objects/methods.md)

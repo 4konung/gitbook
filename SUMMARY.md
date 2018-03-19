@@ -30,7 +30,7 @@
     * [Basics](js-basics/strings/basics.md)
     * [Methods](js-basics/strings/methods.md)
     * [Examples](js-basics/strings/examples.md)
-    * Test yourself
+    * [Test yourself](js-basics/strings/test-yourself.md)
     * [References](js-basics/strings/strings.md)
   * [Boolean](js-basics/boolean.md)
     * [Basics](js-basics/boolean/basics.md)

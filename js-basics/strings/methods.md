@@ -1,91 +1,74 @@
-## Операции со строками
+## Методы конструктора
 
-Одной из встроенных возможностей JavaScript является способность конкатенировать строки. Если оператор `+` применяется к числам, они складываются, а ес ли к строкам, они объединяются, при этом вторая строка добавляется в конец первой. Например:
+* [`String.fromCharCode()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode) - Возвращает строку, созданную из указанной последовательности значений Юникода.
 
-```js
-msg = "Hello, " + "world"; // Получается строка "Hello, world"
-greeting = "Добро пожаловать на мою домашнюю страницу," + " " + name;
-```
+* [`String.fromCodePoint()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint) - Возвращает строку, созданную из указанной последовательности кодовых точек Юникода.
 
-Для определения длины строки – количества содержащихся в ней символов – используется свойство length. Так, если переменная s содержит строку, то длину последней можно получить следующим образом:
-
-```js
-s.length
-```
-
-Для работы со строками существует несколько методов. Так можно получить последний символ в строке s:
-
-```js
-last_char = s.charAt(s.length – 1)
-```
-
-Чтобы извлечь второй, третий и четвертый символы из строки s, применяется инструкция:
-
-```js
-sub = s.substring(1,4);
-```
-
-Определить позицию первого символа «a» в строке s можно следующим образом:
-
-```js
-i = s.indexOf('a');
-```
-
-Есть и еще ряд методов, которые можно использовать при работе со строками. Полностью эти методы документированы в описании объекта String. Из предыдущих примеров можно понять, что JavaScript строки \(и, как мы увидим позднее, массивы JavaScript\) индексируются, начиная с 0. Другими слова ми, порядковый номер первого символа строки равен нулю. В некоторых реализациях JavaScript отдельные символы могут извлекаться из строк \(но не записываться в строки\) при обращении к строкам как к массивам, в результате приведенный ранее вызов метода charAt\(\) может быть записан следующим образом:
-
-```js
-last_char = s[s.length – 1];
-```
+* [`String.raw()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/raw) - Возвращает строку, созданную из сырой шаблонной строки.
 
 ---
 
-## Преобразование строк в числа
+## Методы объекта
 
-Когда строка используется в числовом контексте, она автоматически преобразуется в число. Например, следующее выражение является вполне допустимым:
+* [`String.prototype.charAt()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/charAt) - Возвращает символ по указанному индексу.
 
-```js
-var product = "21" * "2"; // в результате получится число 42.
-```
+* [`String.prototype.charCodeAt()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt) - Возвращает число, представляющее значение символа в Юникоде по указанному индексу.
 
-Это обстоятельство можно взять на вооружение при необходимости преобразовать строку в число; для этого достаточно просто вычесть из строки значение 0:
+* [`String.prototype.codePointAt()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/codePointAt) - Возвращает неотрицательное целое число, представляющее закодированную в UTF-16 кодовую точку значения по указанной позиции.
 
-```js
-var number = string_value  0;
-```
+* [`String.prototype.concat()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/concat) - Объединяет текст двух строк и возвращает новую строку.
 
-Менее изощренный и более прямолинейный способ преобразования строки в число заключается в обращении к конструктору Number\(\) как к обычной функции:
+* [`String.prototype.includes()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/includes) - Определяет, находится ли строка внутри другой строки.
 
-```js
-var number = Number(string_value);
-```
+* [`String.prototype.endsWith()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith) - Определяет, заканчивается ли строка символами другой строки.
 
-Недостаток такого способа преобразования строки в число заключается в его чрезмерной строгости. Этот способ может использоваться только для преобразования десятичных чисел, и хотя он допускает наличие ведущих и оконечных символов пробела, появление других нецифровых символов после числа в строке недопустимо.
+* [`String.prototype.indexOf()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf) - Возвращает индекс первого вхождения указанного значения в объекте[`String`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String), на котором был вызван этот метод, или -1, если вхождений нет.
 
-Более гибкий способ преобразования обеспечивается функциями parseInt\(\) и parseFloat\(\). Эти функции преобразуют и возвращают произвольные числа, стоя щие в начале строки, игнорируя любые нецифровые символы, расположенные вслед за числом. Функция parseInt\(\) выполняет только целочисленное преобразование, тогда как parseFloat\(\) может преобразовывать как целые, так и вещественные числа. Если строка начинается с символов «0x» или «0X», функция par seInt\(\) интерпретирует строку как шестнадцатеричное число.1 Например:
+* [`String.prototype.lastIndexOf()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/lastIndexOf) - Возвращает индекс последнего вхождения указанного значения в объекте[`String`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String), на котором был вызван этот метод, или -1, если вхождений нет.
 
-```js
-parseInt("3 слепых мышки"); // Вернет 3
-parseFloat("3.14 метров"); // Вернет 3.14
-parseInt("12.34"); // Вернет 12
-parseInt("0xFF"); // Вернет 255
-```
+* [`String.prototype.localeCompare()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare) - Возвращает число, указывающее, находится ли образцовая строка до, после или на том же самом месте, что и указанная строка в порядке сортировки.
 
-В качестве второго аргумента функция parseInt\(\) может принимать основание системы счисления. Корректными значениями являются числа в диапазоне от 2 до 36, например:
+* [`String.prototype.match()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/match) - Используется для сопоставления строке регулярного выражения.
 
-```js
-parseInt("11", 2); // Вернет 3 (1*2 + 1)
-parseInt("ff", 16); // Вернет 255 (15*16 + 15)
-parseInt("zz", 36); // Вернет 1295 (35*36 + 35)
-parseInt("077", 8); // Вернет 63 (7*8 + 7)
-parseInt("077", 10); // Вернет 77 (7*10 + 7)
-```
+* [`String.prototype.normalize()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/normalize) - Возвращает форму нормализации Юникода для строкового значения.
 
-Если методы parseInt\(\) и parseFloat\(\) оказываются не в состоянии выполнить преобразование, они возвращают значение NaN:
+* [`String.prototype.repeat()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/repeat) - Возвращает строку. состоящую из элементов объекта, повторённых указанное количество раз.
 
-```js
-parseInt("eleven"); // Вернет NaN
-parseFloat("$72.47"); // Вернет NaN
-```
+* [`String.prototype.replace()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/replace) - Используется для сопоставления строке регулярного выражения и для замены совпавшей подстроки на новую подстроку.
+
+* [`String.prototype.search()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/search) - Выполняет поиск совпадения регулярного выражжения со строкой.
+
+* [`String.prototype.slice()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/slice) - Извлекает часть строки и возвращает новую строку.
+
+* [`String.prototype.split()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/split) - Разбивает объект[`String`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String)на массив строк, разделёных указанной строкой на подстроки.
+
+* [`String.prototype.startsWith()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith) - Определяет, начинается ли строка символами другой строки.
+
+* [`String.prototype.substr()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/substr) - Возвращает указанное количество символов в строке, начинающихся с указанной позиции.
+
+* [`String.prototype.substring()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/substring) - Возвращает символы в строке между двумя индексами.
+
+* [`String.prototype.toLocaleLowerCase()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleLowerCase) - Приводит символы в строке к нижнему регистру согласно текущей локали. Для большинства языков, метод делает то же самое, что и метод [`toLowerCase()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase).
+
+* [`String.prototype.toLocaleUpperCase()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleUpperCase) - Приводит символы в строке к верхнему регистру согласно текущей локали. Для большинства языков, метод делает то же самое, что и метод [`toUpperCase()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase).
+
+* [`String.prototype.toLowerCase()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase) - Возвращает строковое значение с символами в нижнем регистре.
+
+* [`String.prototype.toSource()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/toSource) - Возвращает литерал объекта, представляющий указанный объект; вы можете использовать это значениедля создания нового объекта. Переопределяет метод [`Object.prototype.toSource()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/toSource).
+
+* [`String.prototype.toString()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/toString) - Возвращает строковое представление указаного объекта. Переопределяет метод[`Object.prototype.toString()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/toString).
+
+* [`String.prototype.toUpperCase()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase) - Возвращает строковое значение с символами в верхнем регистре.
+
+* [`String.prototype.trim()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/trim) - Обрезает пробельные символы в начале и в конце строки. Часть стандарта ECMAScript 5.
+
+* [`String.prototype.trimLeft()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/trimLeft) - Обрезает пробельные символы с левой стороны строки.
+
+* [`String.prototype.trimRight()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/trimRight) - Обрезает пробельные символы с правой стороны строки.
+
+* [`String.prototype.valueOf()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/valueOf) - Возвращает примитивное значение указанного объекта. Переопределяет метод [`Object.prototype.valueOf()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/valueOf).
+
+* [`String.prototype[@@iterator]()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator) - Возвращает новый объект итератора `Iterator`, который итерируется по кодовым точкам строки и возвращает каждую кодовую точку в виде строкового значения.
 
 
 

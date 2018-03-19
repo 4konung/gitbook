@@ -12,6 +12,8 @@
 
 * [`Number.parseInt()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/parseInt) - Приводит число к целочисленному числу.
 
+---
+
 ## Методы объекта
 
 * [`Number.prototype.toExponential()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toExponential) - Возвращает строку, представляющую число в экспоненциальной записи.
@@ -29,8 +31,6 @@
 * [`Number.prototype.valueOf()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Number/valueOf)  - Возвращает примитивное значение указанного объекта. Переопределяет метод [`Object.prototype.valueOf()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/valueOf)
 
   .
-
-
 
 
 

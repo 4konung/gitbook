@@ -53,9 +53,9 @@
   * [Functions](js-basics/functions.md)
     * [Basics](js-basics/functions/basics.md)
     * [Methods](js-basics/functions/methods.md)
-    * Examples
-    * Test yourself
-    * References
+    * [Examples](js-basics/functions/examples.md)
+    * [Test yourself](js-basics/functions/test-yourself.md)
+    * [References](js-basics/functions/references.md)
   * [Loops](js-basics/loops.md)
     * For
     * While

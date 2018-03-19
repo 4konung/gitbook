@@ -41,15 +41,15 @@
   * [Objects](js-basics/objects.md)
     * [Basics](js-basics/objects/basics.md)
     * [Methods](js-basics/objects/methods.md)
-    * Examples
-    * Test yourself
-    * References
+    * [Examples](js-basics/objects/examples.md)
+    * [Test yourself](js-basics/objects/test-yourself.md)
+    * [References](js-basics/objects/references.md)
   * [Arrays](js-basics/arrays.md)
     * [Basics](js-basics/arrays/basics.md)
     * [Methods](js-basics/arrays/methods.md)
-    * Examples
-    * Test yourself
-    * References
+    * [Examples](js-basics/arrays/examples.md)
+    * [Test yourself](js-basics/arrays/test-yourself.md)
+    * [References](js-basics/arrays/references.md)
   * [Functions](js-basics/functions.md)
     * [Basics](js-basics/functions/basics.md)
     * [Methods](js-basics/functions/methods.md)

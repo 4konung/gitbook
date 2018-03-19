@@ -10,3 +10,15 @@ document.images[1].width
 
 Этот код ссылается на свойство width объекта, хранящегося во втором элементе массива, в свою очередь хранящегося в свойстве images объекта document.
 
+---
+
+## Содержание
+
+1. [Основы](/js-basics/arrays/basics.md)
+2. [Методы](/js-basics/arrays/methods.md)
+3. [Примеры](/js-basics/arrays/examples.md)
+4. [Задания](/js-basics/arrays/test-yourself.md)
+5. [Ссылки на дополнительные источники](/js-basics/arrays/references.md)
+
+
+

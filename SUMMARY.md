@@ -57,9 +57,9 @@
     * [Test yourself](js-basics/functions/test-yourself.md)
     * [References](js-basics/functions/references.md)
   * [Loops](js-basics/loops.md)
-    * For
-    * While
-    * Do...While
+    * [For](js-basics/loops/for.md)
+    * [While](js-basics/loops/while.md)
+    * [Do...While](js-basics/loops/dowhile.md)
   * [Null, Undefined](js-basics/null-undefined.md)
 * [Advanced Javascript](advanced-javascript.md)
   * [Scope](advanced-javascript/scope.md)

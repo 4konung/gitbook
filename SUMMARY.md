@@ -58,6 +58,8 @@
 * [Advanced Javascript](advanced-javascript.md)
   * [Scope](advanced-javascript/scope.md)
   * [Closures](advanced-javascript/closures.md)
+    * [Practical Use](advanced-javascript/closures/practical-use.md)
+    * References
   * [Context \(this\)](advanced-javascript/thiscontext.md)
   * [OOP in Javascript](advanced-javascript/oop-in-javascript.md)
   * [FP in Javascript](advanced-javascript/fp-in-javascript.md)

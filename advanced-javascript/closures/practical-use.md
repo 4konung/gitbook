@@ -53,5 +53,42 @@ document.getElementById('size-16').onclick = size16;
 <a href="#" id="size-16">16</a>
 ```
 
-https://jsfiddle.net/fax46n3g/
+[https://jsfiddle.net/fax46n3g/](https://jsfiddle.net/fax46n3g/)
+
+## Эмуляция частных \(private\) методов с помощью замыканий {#Эмуляция_частных_(private)_методов_с_помощью_замыканий}
+
+Языки вроде Java позволяют нам объявлять частные \(private\) методы . Это значит что они могут быть вызваны только методами того же класса в котором объявлены.
+
+JavaScript не имеет встроенной возможности сделать такое, но это можно эмулировать с помощью замыкания. Частные методы полезны не только тем, что ограничивают доступ к коду, это также мощное средство глобальной организации пространства имен, позволяющее не засорять публичный интерфейс вашего кода внутренними методами классов.
+
+Следующий далее код иллюстрирует как можно использовать замыкания для определения публичных функций которые имеют доступ к закрытым от пользователя \(private\) функциям и переменным. Такая манера программирования называется [модульное программирование](http://www.google.com/search?q=javascript+module+pattern): 
+
+```js
+var Counter = (function() {
+  var privateCounter = 0;
+  function changeBy(val) {
+    privateCounter += val;
+  }
+  return {
+    increment: function() {
+      changeBy(1);
+    },
+    decrement: function() {
+      changeBy(-1);
+    },
+    value: function() {
+      return privateCounter;
+    }
+  };   
+})();
+
+alert(Counter.value()); /* Alerts 0 */
+Counter.increment();
+Counter.increment();
+alert(Counter.value()); /* Alerts 2 */
+Counter.decrement();
+alert(Counter.value()); /* Alerts 1 */
+```
+
+Тут много чего поменялось. В предыдущем примере каждое замыкание имело свой собственный контекст исполнения \(окружение\). Здесь мы создаем единое окружение для трех функций: `Counter.increment`,`Counter.decrement`, и `Counter.value`.
 

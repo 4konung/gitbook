@@ -53,5 +53,5 @@ document.getElementById('size-16').onclick = size16;
 <a href="#" id="size-16">16</a>
 ```
 
-https://jsfiddle.net/vnkuZ/
+https://jsfiddle.net/fax46n3g/
 

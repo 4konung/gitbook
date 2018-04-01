@@ -62,6 +62,7 @@
     * References
   * [Context \(this\)](advanced-javascript/thiscontext.md)
   * [OOP in Javascript](advanced-javascript/oop-in-javascript.md)
+    * [Basics](advanced-javascript/oop-in-javascript/basics.md)
   * [FP in Javascript](advanced-javascript/fp-in-javascript.md)
   * Inheritance and the prototype chain
   * Event Loop

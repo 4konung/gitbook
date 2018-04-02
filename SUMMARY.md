@@ -59,11 +59,10 @@
   * [Scope](advanced-javascript/scope.md)
   * [Closures](advanced-javascript/closures.md)
     * [Practical Use](advanced-javascript/closures/practical-use.md)
-    * References
+    * [References](advanced-javascript/closures/references.md)
   * [Context \(this\)](advanced-javascript/thiscontext.md)
   * [OOP in Javascript](advanced-javascript/oop-in-javascript.md)
     * [Basics](advanced-javascript/oop-in-javascript/basics.md)
-    * [Built-in objects](advanced-javascript/oop-in-javascript/built-in-objects.md)
     * [Custom objects](advanced-javascript/oop-in-javascript/class-in-javascript.md)
   * [FP in Javascript](advanced-javascript/fp-in-javascript.md)
   * Inheritance and the prototype chain

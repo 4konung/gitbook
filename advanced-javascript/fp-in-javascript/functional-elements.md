@@ -165,5 +165,64 @@ monad(prompt("Enter your name:")).bind(function (name) {
 });
 ```
 
+### К**аррирование**
+
+Каррирование \(Schönfinkelization или Currying\) это функциональное преобразование, которое позволяет заполнять аргументы функции шаг за шагом. Когда функция принимает последний аргумент, она возвращает результат. Эта функция была введена Moses Schönfinkel и позднее еще раз открыта Haskell Curry \(потому и каррирование\). Вот пример Stoyan Stefanov реализации ее в JavaScript:
+
+```js
+/* By Stoyan Stafanov */
+function schonfinkelize(fn) {
+    var slice = Array.prototype.slice,
+        stored_args = slice.call(arguments, 1);
+    return function () {
+        var new_args = slice.call(arguments),
+            args = stored_args.concat(new_args);
+        return fn.apply(null, args);
+    };
+}
+```
+
+Вот базовый пример использования функции для решения квадратного уравнения:
+
+```js
+function quadraticEquation(a, b, c) {
+    var d = b * b - 4 * a * c,
+        x1, x2;
+    if (d < 0) throw "No roots in R";
+    x1 = (-b - Math.sqrt(d)) / (2 * a);
+    x2 = (-b + Math.sqrt(d)) / (2 * a);
+    return {
+        x1: x1,
+        x2: x2
+    }
+}
+```
+
+Если мы хотим заполнить аргументы функции один за другим, мы используем:
+
+```js
+var temp = schonfinkelize(quadraticEquation, 1);
+temp = schonfinkelize(temp, -2);
+temp(1); // { x1: 1, x2: 1 }
+```
+
+Если вы хотите использовать встроенные в язык свойства вместо функции каррирования, вы можете также использовать Function.prototype.bind. С тех пор как он установлен в прототип функции конструктора всех функций, вы можете использовать его, как метод во всех функциях. Метод bind создает новую функцию со специфическими контекстом и параметрами. Например, у нас может быть такая функция:
+
+```js
+var f = function (a, b, c) {
+  console.log(this, arguments);
+};    
+```
+
+Теперь мы применяем метод bind:
+
+```
+var newF = f.bind(this, 1, 2);
+newF(); //window, [1, 2]
+newF = newF.bind(this, 3)
+newF(); //window, [1,2,3]
+newF(4); //window, [1,2,3,4]
+```
+
 
 

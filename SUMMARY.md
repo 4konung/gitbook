@@ -66,7 +66,7 @@
     * [Custom objects](advanced-javascript/oop-in-javascript/class-in-javascript.md)
   * [FP in Javascript](advanced-javascript/fp-in-javascript.md)
     * [Functional elements](advanced-javascript/fp-in-javascript/functional-elements.md)
-    * Functional concepts
+    * [Functional concepts](advanced-javascript/fp-in-javascript/functional-concepts.md)
   * Inheritance and the prototype chain
   * Event Loop
   * Memory management

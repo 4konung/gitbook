@@ -68,6 +68,8 @@
     * [Functional elements](advanced-javascript/fp-in-javascript/functional-elements.md)
     * [Functional concepts](advanced-javascript/fp-in-javascript/functional-concepts.md)
   * [Inheritance and the prototype chain](advanced-javascript/inheritance-and-the-prototype-chain.md)
+    * [Basics](advanced-javascript/inheritance-and-the-prototype-chain/basics.md)
+    * [Prototype chain](advanced-javascript/inheritance-and-the-prototype-chain/prototype-chain.md)
   * Event Loop
   * Memory management
 * [JS in Browser](js-in-browser.md)

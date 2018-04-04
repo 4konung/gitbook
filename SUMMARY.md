@@ -70,7 +70,7 @@
   * [Inheritance and the prototype chain](advanced-javascript/inheritance-and-the-prototype-chain.md)
     * [Basics](advanced-javascript/inheritance-and-the-prototype-chain/basics.md)
     * [Prototype chain](advanced-javascript/inheritance-and-the-prototype-chain/prototype-chain.md)
-  * Event Loop
+  * [Event Loop](advanced-javascript/event-loop.md)
   * Memory management
 * [JS in Browser](js-in-browser.md)
   * [DOM & BOM](js-in-browser/dom.md)

@@ -74,7 +74,7 @@
   * [Memory management](advanced-javascript/memory-management.md)
 * [JS in Browser](js-in-browser.md)
   * [DOM & BOM](js-in-browser/dom.md)
-  * Events
+  * [Events](js-in-browser/events.md)
   * Controls
   * Profiling and Debugging
 * JS on Server

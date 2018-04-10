@@ -76,7 +76,6 @@
   * [DOM & BOM](js-in-browser/dom.md)
   * [Events](js-in-browser/events.md)
   * [Controls](js-in-browser/controls.md)
-  * Profiling and Debugging
-* JS on Server
+* [JS on Server](js-on-server.md)
 * [Additional](additional.md)
 

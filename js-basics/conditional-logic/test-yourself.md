@@ -6,7 +6,7 @@
 
 var name;
 
-if \(name === "John"\) {
+if (name === "John") {
 
 
 
@@ -18,7 +18,7 @@ if \(name === "John"\) {
 
 var name = "John";
 
-if \(name === "John"\) {
+if (name === "John") {
 
 
 
@@ -30,7 +30,7 @@ if \(name === "John"\) {
 
 
 
-assert\(name == 'John'\);
+assert(name == 'John');
 
 
 

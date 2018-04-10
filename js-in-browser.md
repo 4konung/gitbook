@@ -4,3 +4,11 @@
 
 Несмотря на то, что чаще доступно использование JavaScript, DOM не является его частью, и может использоваться в других языках, хотя гораздо реже.
 
+## Содержание
+
+1. [DOM & BOM](/js-in-browser/dom.md)
+2. [Events](/js-in-browser/events.md)
+3. [Controls](/js-in-browser/controls.md)
+
+
+

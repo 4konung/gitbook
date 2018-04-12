@@ -1,14 +1,14 @@
 ## Методы конструктора
 
-* [`Object.assign()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) - Создаёт новый объект путём копирования значений всех собственных перечислимых свойств из одного или более исходных объектов в целевой объект.
+* [`Object.assign()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) - Создает новый объект путем копирования значений всех собственных перечислимых свойств из одного или более исходных объектов в целевой объект.
 
-* [`Object.create()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/create) - Создаёт новый объект с указанными объектом прототипа и свойствами.
+* [`Object.create()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/create) - Создает новый объект с указанным объектом прототипа и свойствами.
 
 * [`Object.defineProperty()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty) - Добавляет к объекту именованное свойство, описываемое переданным дескриптором.
 
 * [`Object.defineProperties()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties) - Добавляет к объекту именованные свойства, описываемые переданными дескрипторами.
 
-* [`Object.freeze()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze) - Замораживает объект: другой код не сможет удалить или изменить никакое свойство.
+* [`Object.freeze()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze) - Замораживает объект: другой код не сможет удалить или изменить какое-либо свойство.
 
 * [`Object.getOwnPropertyDescriptor()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyDescriptor) - Возвращает дескриптор свойства для именованного свойства объекта.
 
@@ -50,7 +50,7 @@
 
 * [`Object.prototype.toLocaleString()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/toLocaleString) - Вызывает[`toString()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/toString).
 
-* [`Object.prototype.toString()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/toString) - Возвращает строковое представление объекта. 
+* [`Object.prototype.toString()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/toString) - Возвращает строковое представление объекта.
 
 * [`Object.prototype.unwatch()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/unwatch)  - Удаляет точку наблюдения \(watchpoint\) со свойства объекта.
 

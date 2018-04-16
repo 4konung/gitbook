@@ -156,7 +156,7 @@ BOM – это объекты для работы с чем угодно, кро
 
 Например:
 
-* Объект [navigator](https://developer.mozilla.org/en/DOM/window.navigator) содержит общую информацию о браузере и операционной системы. Особенно примечательны два свойства:`navigator.userAgent`– содержит информацию о браузере и`navigator.platform`– содержит информацию о платформе, позволяет различать Windows/Linux/Mac и т.п.
+* Объект [navigator](https://developer.mozilla.org/en/DOM/window.navigator) содержит общую информацию о браузере и операционной системы. Особенно примечательны два свойства:`navigator.userAgent`– содержит информацию о браузере и`navigator.platform` содержит информацию о платформе, позволяет различать Windows/Linux/Mac и т.п.
 * Объект [location](https://developer.mozilla.org/en-US/docs/Web/API/Window.location) содержит информацию о текущем URL страницы и позволяет перенаправить посетителя на новый URL.
 * Функции `alert/confirm/prompt`тоже входят в BOM.
 

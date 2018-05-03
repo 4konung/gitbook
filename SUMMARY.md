@@ -13,7 +13,6 @@
   * [Conditional Logic](js-basics/conditional-logic/README.md)
     * [Basics](js-basics/conditional-logic/basics.md)
     * [Examples](js-basics/conditional-logic/examples.md)
-    * [Test yourself](js-basics/conditional-logic/test-yourself.md)
     * [References](js-basics/conditional-logic/references.md)
   * [Equality](js-basics/equality/README.md)
     * [Basics](js-basics/equality/basics.md)
@@ -77,5 +76,4 @@
   * [Events](js-in-browser/events.md)
   * [Controls](js-in-browser/controls.md)
 * [JS on Server](js-on-server.md)
-* [Additional](additional.md)
 

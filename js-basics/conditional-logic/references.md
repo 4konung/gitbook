@@ -1,3 +1,7 @@
+---
+description: Ссылки на дополнительные источники по теме.
+---
+
 # References
 
 1. [http://delapouite.com/ramblings/javascript-coercion-rules.html](http://delapouite.com/ramblings/javascript-coercion-rules.html)

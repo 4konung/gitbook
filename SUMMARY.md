@@ -13,7 +13,7 @@
   * [Conditional Logic](js-basics/conditional-logic/README.md)
     * [Basics](js-basics/conditional-logic/basics.md)
     * [Examples](js-basics/conditional-logic/examples.md)
-    * [Test yourself](js-basics/conditional-logic/test-yourself.md)
+    * Test yourself
     * [References](js-basics/conditional-logic/references.md)
   * [Equality](js-basics/equality/README.md)
     * [Basics](js-basics/equality/basics.md)

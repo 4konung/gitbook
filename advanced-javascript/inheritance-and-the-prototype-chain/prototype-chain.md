@@ -1,8 +1,10 @@
+# Prototype chain
+
 ## Способы создания объектов и получаемые в итоге цепочки прототипов {#Различные_способы_создания_объектов_и_получаемые_в_итоге_цепочки_прототипов}
 
 ### Создание объектов с помощью литералов {#Создание_объектов_с_помощью_литералов}
 
-```js
+```javascript
 var o = {a: 1};
 
 // Созданный объект 'o' имеет Object.prototype в качестве своего [[Prototype]]
@@ -32,7 +34,7 @@ function f(){
 
 В JavaScript "конструктор" — это "просто" функция, вызываемая с оператором [new](https://developer.mozilla.org/en/JavaScript/Reference/Operators/new).
 
-```js
+```javascript
 function Graph() {
   this.vertexes = [];
   this.edges = [];
@@ -53,7 +55,7 @@ var g = new Graph();
 
 В ECMAScript 5 представлен новый метод создания объектов: [Object.create](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object/create). Прототип создаваемого объекта указывается в первом аргументе этого метода:
 
-```js
+```javascript
 var a = {a: 1}; 
 // a ---> Object.prototype ---> null
 
@@ -74,7 +76,7 @@ console.log(d.hasOwnProperty);
 
 С выходом ECMAScript 6 появился целый набор ключевых слов, реализующих [классы](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes). Они могут показаться знакомыми людям, изучавшим языки, основанные на классах, но есть существенные отличия. JavaScript был и остается прототипно-ориентированным языком. Новые ключевые слова: "`class`", "`constructor`", "`static`", "`extends`" и "`super`".
 
-```js
+```javascript
 "use strict";
 
 class Polygon {
@@ -122,7 +124,7 @@ var square = new Square(2);
 
 `B` наследует от`A`:
 
-```js
+```javascript
 function A(a){
   this.varA = a;
 }
@@ -179,13 +181,13 @@ b.doSomething();
 
 `[[Prototype]]` работает _рекурсивно_, то есть при вызове:
 
-```js
+```javascript
 var o = new Foo();
 ```
 
 JavaScript на самом деле выполняет что-то подобное:
 
-```js
+```javascript
 var o = new Object();
 o.[[Prototype]] = Foo.prototype;
 Foo.call(o);
@@ -193,9 +195,9 @@ Foo.call(o);
 
 а когда вы делаете так:
 
-```js
+```javascript
 o.someProp;
 ```
 
-JavaScript проверяет, есть ли у `o` свойство `someProp` и  если нет, то проверяет `Object.getPrototypeOf(o).someProp ,`а если и там нет, то ищет в `Object.getPrototypeOf(Object.getPrototypeOf(o)).someProp` и так далее.
+JavaScript проверяет, есть ли у `o` свойство `someProp` и если нет, то проверяет `Object.getPrototypeOf(o).someProp ,`а если и там нет, то ищет в `Object.getPrototypeOf(Object.getPrototypeOf(o)).someProp` и так далее.
 

@@ -1,8 +1,8 @@
-## Задание №1
+# Examples
 
 _Какое значение будет в консоли и почему ?_
 
-```js
+```javascript
 var equalityResult = {} == true;
 
 console.log(equalityResult)
@@ -26,7 +26,7 @@ console.log(equalityResult)
 
 Несколько примеров:
 
-```js
+```javascript
 1 === "1" // false, правило 1
 
 0 === 0 // true, правило 6  
@@ -64,7 +64,7 @@ secondObject === firstObject // true, правило 8
 
 Несколько примеров:
 
-```js
+```javascript
 1 == true // true  
 
 '' == 0 // true  
@@ -87,6 +87,4 @@ NaN == NaN // false
 3. NaN == 1
 4. NaN === 1
 5. false
-
-
 

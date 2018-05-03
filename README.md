@@ -1,4 +1,4 @@
-# Javascript fronted guide for noobs and nerds.
+# Introduction
 
 This is a guide and reference book for using javascript in front-end development.
 

@@ -1,4 +1,4 @@
-# Навигация и свойства элементов формы
+# Controls
 
 Элементы управления, такие как`<form>`,`<input>`и другие имеют большое количество своих важных свойств и ссылок.
 
@@ -8,18 +8,18 @@
 
 Например:
 
-```js
+```javascript
 document.forms.my -- форма с именем 'my'
 document.forms[0] -- первая форма в документе
 ```
 
 **Любой **_**элемент **_**формы**`form`**можно получить аналогичным образом, используя свойство**`form.elements`**.**
 
-![](/assets/form.png)
+![](../.gitbook/assets/form.png)
 
 Например:
 
-```markdown
+```text
 <body>
   <form name="my">
     <input name="one" value="1">
@@ -38,7 +38,7 @@ document.forms[0] -- первая форма в документе
 
 **Может быть несколько элементов с **_**одинаковым именем**_**. В таком случае**`form.elements[name]`**вернет коллекцию элементов**, например:
 
-```markdown
+```text
 <body>
 <form>
   <input type="radio" name="age" value="10">
@@ -59,7 +59,7 @@ alert(elems[0].value); // 10, первый input
 
 **Свойство**`elements`**также есть у элементов**`<fieldset>`**. **Вот пример:
 
-```
+```text
 <body>
   <form>
     <fieldset name="set">
@@ -77,8 +77,6 @@ alert(elems[0].value); // 10, первый input
 </body>
 ```
 
----
-
 ## Элемент label
 
 Элемент`label`– один из самых важных в формах.
@@ -91,7 +89,7 @@ alert(elems[0].value); // 10, первый input
 
 Дать метке атрибут`for`, равный`id`соответствующего`input`:
 
-```markdown
+```text
 <table>
   <tr>
     <td>
@@ -114,9 +112,7 @@ alert(elems[0].value); // 10, первый input
 
 Завернуть элемент в`label`. В этом случае можно обойтись без дополнительных атрибутов:
 
-```markdown
+```text
 <label>Кликни меня <input type="checkbox"></label>
 ```
-
-
 

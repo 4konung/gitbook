@@ -1,8 +1,8 @@
-# Цикл `while`
+# While
 
 Цикл [`while`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/while)выполняет выражения, пока условие истинно. Выглядит он так:
 
-```js
+```javascript
 while (условие)
   выражения
 ```
@@ -13,7 +13,7 @@ while (условие)
 
 Пример:
 
-```js
+```javascript
 var n = 0;
 var x = 0;
 while (n < 3) {
@@ -27,6 +27,4 @@ while (n < 3) {
 * После первого прохода: `n`= 1 и`x`= 1
 * После второго:`n`= 2 и`x`= 3
 * После третьего прохода:`n`= 3 и`x`= 6
-
-
 

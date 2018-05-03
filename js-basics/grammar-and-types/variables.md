@@ -223,4 +223,5 @@ foo();
 
 1. [You don't know js](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch2.md#variables)
 2. [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types)
+3. [learnjavascript.ru](https://learn.javascript.ru/variables)
 

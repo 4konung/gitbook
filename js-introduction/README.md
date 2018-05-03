@@ -6,7 +6,7 @@ description: Введение в Javascript
 
 В данной главе будет рассмотрен язык программирования JS, основы работы front-end разработки, а также работа Web в целом \(Internet, Browsers, DNS, HTTP\).
 
-## [Что такое Front-end ?](what-is-frontend-about.md)
+## [Что такое Frontend ?](what-is-frontend-about.md)
 
 В данной главе дается краткая характеристика работы front-end разработчика, его обязанности и необходимые знания.
 

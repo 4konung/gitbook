@@ -33,6 +33,6 @@ image["height"]
 1. [Основы](basics.md)
 2. [Методы](methods.md)
 3. [Примеры](examples.md)
-4. [Задания](test-yourself.md)
+4. [Задания]()
 5. [Ссылки на дополнительные источники](references.md)
 

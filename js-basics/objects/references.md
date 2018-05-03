@@ -1,4 +1,8 @@
 # References
 
+* {% embed data="{\"url\":\"https://medium.com/@tkssharma/objects-in-javascript-object-assign-deep-copy-64106c9aefab\",\"type\":\"link\",\"title\":\"Objects in javascript : object.assign/deep copy\",\"description\":\"Lets talk simple things abut object like adding properties, copy or deep copy object and Method defined for Object\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn-images-1.medium.com/fit/c/304/304/1\*8I-HPL0bfoIzGied-dzOvA.png\",\"width\":152,\"height\":152,\"aspectRatio\":1}}" %}
+* {% embed data="{\"url\":\"https://medium.com/javascript-scene/the-hidden-treasures-of-object-composition-60cd89480381\",\"type\":\"link\",\"title\":\"The Hidden Treasures of Object Composition\",\"description\":\"One of the most common mistakes in software development is the tendency to overuse class inheritance. Class inheritance is a code reuse mechanism where instances form is-a relations with base classes…\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn-images-1.medium.com/fit/c/304/304/1\*fegbK6HDD8crwrwARuMhaQ.png\",\"width\":152,\"height\":152,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn-images-1.medium.com/max/1200/1\*uVpU7iruzXafhU2VLeH4lw.jpeg\",\"width\":1200,\"height\":546,\"aspectRatio\":0.455}}" %}
+* {% embed data="{\"url\":\"https://medium.com/techtrument/enumeration-objects-in-javascript-ec06a83f39f2\",\"type\":\"link\",\"title\":\"Enumeration Objects in JavaScript\",\"description\":\"Stop repeatedly typing the same String everywhere! 😆\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn-images-1.medium.com/fit/c/304/304/1\*z\_3MhiCKFDPUj9qeAjNCIw.png\",\"width\":152,\"height\":152,\"aspectRatio\":1}}" %}
+
 
 

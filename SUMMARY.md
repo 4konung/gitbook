@@ -41,7 +41,6 @@
     * [Basics](js-basics/objects/basics.md)
     * [Methods](js-basics/objects/methods.md)
     * [Examples](js-basics/objects/examples.md)
-    * [Test yourself](js-basics/objects/test-yourself.md)
     * [References](js-basics/objects/references.md)
   * [Arrays](js-basics/arrays/README.md)
     * [Basics](js-basics/arrays/basics.md)

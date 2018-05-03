@@ -46,7 +46,6 @@
     * [Basics](js-basics/arrays/basics.md)
     * [Methods](js-basics/arrays/methods.md)
     * [Examples](js-basics/arrays/examples.md)
-    * [Test yourself](js-basics/arrays/test-yourself.md)
     * [References](js-basics/arrays/references.md)
   * [Null, Undefined](js-basics/null-undefined.md)
 * [Advanced Javascript](advanced-javascript/README.md)
